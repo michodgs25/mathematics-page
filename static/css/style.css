@@ -1,6 +1,19 @@
+/*homepage container*/
 #container {
     width: 50em;
     height: 6.25em;
     border: 0.0625em solid rgb(0, 0, 0);
     margin: 0 auto;
 }
+/*homepage header styling*/
+h1 a {
+    font-size: 2.5em;
+    font-weight: 100;
+    color: rgb(99, 99, 204);
+    text-decoration: none;
+}
+/*search box position and style*/
+.searchBox {
+    float: right;
+}
+/*home end*/
