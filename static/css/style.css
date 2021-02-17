@@ -5,6 +5,10 @@
     border: 0.0625em solid rgb(0, 0, 0);
     margin: 0 auto;
 }
+
+#header {
+    padding: 0.225em 0;
+}
 /*---------------Platform brand positioning*/
 #brand {
     float: left;
@@ -24,6 +28,8 @@ h1 a {
     width: 19.75em;
     height: 3.5em;
     border-radius: 0.625em;
+    padding: 1.625em 1.625em 0 1.625em;
+    margin-top: 0.625em;
 }
 /*---------input bar text and submit positioning*/
 .text {
@@ -35,5 +41,10 @@ h1 a {
 }
 .submit {
     float: right;
+    padding: 0.3125em;
+    font-weight: 800;
+    font-size: 0.9375em;
+    color: rgb(255, 255, 255);
+    background: rgb(44, 160, 92);
 }
 /*home end*/
