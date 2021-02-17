@@ -1,19 +1,39 @@
-/*homepage container*/
+/*---------------homepage container*/
 #container {
     width: 50em;
     height: 6.25em;
     border: 0.0625em solid rgb(0, 0, 0);
     margin: 0 auto;
 }
-/*homepage header styling*/
+/*---------------Platform brand positioning*/
+#brand {
+    float: left;
+}
+/*end*/
+/*---------------homepage header styling*/
 h1 a {
     font-size: 2.5em;
     font-weight: 100;
     color: rgb(99, 99, 204);
     text-decoration: none;
 }
-/*search box position and style*/
+/*---------search box position and style*/
 .searchBox {
+    float: right;
+    background: rgb(247, 182, 4);
+    width: 19.75em;
+    height: 3.5em;
+    border-radius: 0.625em;
+}
+/*---------input bar text and submit positioning*/
+.text {
+    float: left;
+    width: 9.375em;
+    padding: 0.3125em;
+    font-size: 0.9375em;
+    color: rgb(99, 99, 204);
+}
+.submit {
     float: right;
 }
 /*home end*/
