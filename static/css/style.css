@@ -1,5 +1,16 @@
+/*navigation bar*/
+.navbar {
+    background-color: rgb(247, 182, 4);
+}
+
+.nav-item .nav-link {
+    color: rgb(255, 255, 255);
+}
+
+.nav
+
 /*---------------homepage container*/
-#container {
+.home-header-container {
     width: 80em;
     height: 6.25em;
     border: none;
@@ -7,14 +18,22 @@
     background-color: rgb(247, 182, 4);
 }
 
-#header {
+.home-header {
     padding-bottom: 1em;
 }
 /*---------------Platform brand positioning*/
-#brand {
+.brand {
     float: left;
 }
-/*end*/
+
+.brand:hover {
+    transition: height 1s, width 1s;
+    overflow: hidden;
+}
+.transition-two:hover {
+    height: 200px;
+    width: 200px;
+}
 /*---------------homepage header styling*/
 h1 a {
     font-size: 2.5em;
@@ -33,7 +52,7 @@ h1 a {
     margin-top: 0.625em;
 }
 /*---------input bar text and submit positioning*/
-.text {
+.input-text {
     float: left;
     width: 10.8em;
     padding: 0.3125em;
