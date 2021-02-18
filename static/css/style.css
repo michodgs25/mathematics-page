@@ -16,7 +16,7 @@
   overflow-x: hidden;
 }
 
-/* The navigation menu links */
+/*------------------------The navigation menu links */
 .sidenav a {
   padding:  0.375em 0.5em 0.375em 1em;
   color: rgb(0, 0, 0);
@@ -26,7 +26,7 @@
   display: block;
 }
 
-/* When you mouse over the navigation links, change their color */
+/*-----------------When hovered over, color changes */
 .sidenav a:hover {
     background: #CEEC97;
     color: #494368;
@@ -37,10 +37,8 @@
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
-/*----------------------------sidenav image sizing*/
-.background img {
-    height: 180px;
-    padding-bottom: 1em;
-    background-position: center;
+/*-------------------------homepage menu*/
+.home-menu {
+    
 }
 /*home end*/
