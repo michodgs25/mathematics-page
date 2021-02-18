@@ -1,77 +1,46 @@
-/*navigation bar*/
-.navbar {
-    background-color: rgb(247, 182, 4);
-}
-
-.nav-item .nav-link {
-    color: rgb(255, 255, 255);
-}
-
-.nav
-
-/*---------------homepage container*/
-.home-header-container {
-    width: 80em;
-    height: 6.25em;
-    border: none;
-    margin: 0 auto;
-    background-color: rgb(247, 182, 4);
-}
-
-.home-header {
+/*----------------------------sidenav image sizing*/
+.background img {
+    height: 180px;
     padding-bottom: 1em;
+    background-position: center;
 }
-/*---------------Platform brand positioning*/
-.brand {
-    float: left;
+/*--------------------The sidebar menu*/
+.sidenav {
+  height: 100%;
+  width: 160px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, #7A28CB, #FC60A8);
+  overflow-x: hidden;
 }
 
-.brand:hover {
-    transition: height 1s, width 1s;
-    overflow: hidden;
+/* The navigation menu links */
+.sidenav a {
+  padding:  0.375em 0.5em 0.375em 1em;
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 1.25em;
+  font-weight: 600;
+  display: block;
 }
-.transition-two:hover {
-    height: 200px;
-    width: 200px;
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover {
+    background: #CEEC97;
+    color: #494368;
 }
-/*---------------homepage header styling*/
-h1 a {
-    font-size: 2.5em;
-    font-weight: 100;
-    color: rgb(99, 99, 204);
-    text-decoration: none;
+
+/*-------On smaller screens, height is less than 450px*/
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
 }
-/*---------search box position and style*/
-.searchBox {
-    float: right;
-    background: rgb(247, 182, 4);
-    width: 12.75em;
-    height: 3.5em;
-    border-radius: 0.625em;
-    padding: 1.625em 1.625em 0 1.625em;
-    margin-top: 0.625em;
-}
-/*---------input bar text and submit positioning*/
-.input-text {
-    float: left;
-    width: 10.8em;
-    padding: 0.3125em;
-    font-size: 0.9375em;
-    color: rgb(99, 99, 204);
-}
-/*Input box and submit button*/
-.icon {
-    float: right;
-}
-.submit {
-    float: right;
-    padding: 0.3em;
-    font-weight: 800;
-    font-size: 0.9375em;
-    color: rgb(255, 255, 255);
-    background-color: rgb(44, 160, 92);
-}
-.clear {
-    clear: both;
+/*----------------------------sidenav image sizing*/
+.background img {
+    height: 180px;
+    padding-bottom: 1em;
+    background-position: center;
 }
 /*home end*/

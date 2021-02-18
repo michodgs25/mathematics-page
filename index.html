@@ -16,77 +16,27 @@
     <!--Favicon, site icon-->
     <link id="favicon" rel="icon" type="image/png" sizes="16x16" href="static/images/favicon/favicon-16x16.png">
 </head>
-
+<!--Math home& navigation, introduce users to platform-->
+<header>
+    <div class="sidenav">
+        <div class="background">
+            <!--Sprint title& image, increase user interaction-->
+            <img src="./static/images/sidenav/maths.jpg" alt="Maths text image">
+        </div>
+        <!-- Side navigation bar, display different tutorials to users-->
+        <a href="index.html">Home</a>
+        <a href="#">Primary Tutorials</a>
+        <a href="#">Secondary tutorials</a>
+        <a href="#">College tutorials</a>
+    </div>
+</header>
+<!--End of navigation-->
 <body>
-    <!--Math home& navigation, introduce users to platform-->
-
-    <nav class="navbar navbar-expand-lg">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="index.html">Maths Fun</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                    <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Link</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Dropdown
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li>
-                                <hr class="dropdown-divider">
-                            </li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <form class="d-flex">
-                    <input class="form-control me-2" type="search" placeholder="Search Our Tutorials"
-                        aria-label="Search">
-                    <button class="btn btn-outline-success" type="submit">Search</button>
-                </form>
-            </div>
-        </div>
-    </nav>
-    <!--mobile sidenav section-->
-    <ul id="mobile-demo" class="sidenav light-blue darken-4">
-        <div class="user-view">
-            <div class="background">
-                <!--Sprint title& image, increase user interaction-->
-                <img src=""
-                    alt="Male athlete in running motion">
-            </div>
-            <h5 class="side-title">Sprint</h5>
-        </div>
-        <!--User can choose to either create or explore sprints or back to homepage-->
-        <li class="tab row s3"><a href="index.html"><i class="fas fa-home"></i>Home</a></li>
-        <!--on explore page, user can search specific sprints-->
-        <form class="side-form" action="{{ url_for('search') }}" method="post">
-            <div class="side-search">
-                <div class="input-field">
-                    <input type="text" name="query" id="mobilequery" required>
-                    <label class="label-icon" for="query"><i class=""></i></label>
-                    <label for="#!">Search:</label>
-                </div>
-                <!--User can reset results, and display all logs-->
-                <div class="side-reset">
-                    <a href="#" class="red btn text-shadow">Reset Search</a>
-                </div>
-            </div>
-        </form>
-    </ul>
-    <!--End of navigation-->
+    <div class="container">
+        <h5>Maths Fun</h5>
+    </div>
+    <footer>
+    </footer>
 </body>
 
 </html>
