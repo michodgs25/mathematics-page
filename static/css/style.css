@@ -18,19 +18,21 @@
 
 /*------------------------The sidebar menu links */
 .sidenav a {
-  padding:  0.375em 0.5em 0.375em 1em;
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  font-size: 1em;
-  font-weight: 600;
-  display: block;
+    padding:  0.375em 0.5em 0.375em 1em;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-size: 1.2em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    display: block;
 }
 
 /* Style the sidenav links and the dropdown button */
 .dropdown-btn {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 1em;
+  font-size: 1.2em;
+  font-weight: 600;
   color: rgb(255, 255, 255);
   display: block;
   border: none;
@@ -50,8 +52,7 @@
 /* Dropdown container (hidden by default)*/
 .dropdown-container {
   display: none;
-  background-color: #262626;
-  padding-left: 8px;
+  background-color: #494368;
 }
 
 /* On mouse-over */
@@ -66,8 +67,14 @@
     color: #494368;
 }
 /*------------------------------------------------------homepage menu*/
-.home-menu {
+.home-menu ul {
     list-style: none;
+}
+
+.home-menu ul li {
+    padding: 10px 10px;
+    background: linear-gradient(to right, #7A28CB, #FC60A8, #CEEC97);
+    text-align: center;
 }
 /*home end*/
 
