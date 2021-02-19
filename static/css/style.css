@@ -21,7 +21,7 @@
   padding:  0.375em 0.5em 0.375em 1em;
   color: rgb(255, 255, 255);
   text-decoration: none;
-  font-size: 1.25em;
+  font-size: 1em;
   font-weight: 600;
   display: block;
 }
@@ -30,7 +30,7 @@
 .dropdown-btn {
   padding: 6px 8px 6px 16px;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 1em;
   color: rgb(255, 255, 255);
   display: block;
   border: none;
@@ -43,7 +43,7 @@
 
 /* Add an active class to the active dropdown button */
 .active {
-  background-color: green;
+  background-color: #379634;
   color: rgb(255, 255, 255);
 }
 
@@ -70,7 +70,6 @@
     list-style: none;
 }
 /*home end*/
-
 
 /*----------------------------------------------------------media queries*/
 
