@@ -1,10 +1,10 @@
 /*----------------------------sidenav image sizing*/
 .background img {
-    height: 180px;
+    height: 11.25em;
     padding-bottom: 1em;
     background-position: center;
 }
-/*--------------------The sidebar menu*/
+/*-----------------------------------------------------------The sidebar menu*/
 .sidenav {
   height: 100%;
   width: 160px;
@@ -16,7 +16,7 @@
   overflow-x: hidden;
 }
 
-/*------------------------The navigation menu links */
+/*------------------------The sidebar menu links */
 .sidenav a {
   padding:  0.375em 0.5em 0.375em 1em;
   color: rgb(255, 255, 255);
@@ -26,19 +26,67 @@
   display: block;
 }
 
+/* Style the sidenav links and the dropdown button */
+.dropdown-btn {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  display: block;
+  border: none;
+  background: none;
+  width:100%;
+  text-align: left;
+  cursor: pointer;
+  outline: none;
+}
+
+/* Add an active class to the active dropdown button */
+.active {
+  background-color: green;
+  color: rgb(255, 255, 255);
+}
+
+/* Dropdown container (hidden by default)*/
+.dropdown-container {
+  display: none;
+  background-color: #262626;
+  padding-left: 8px;
+}
+
+/* On mouse-over */
+.sidenav a:hover, .dropdown-btn:hover {
+    background: #CEEC97;
+    color: #494368;
+}
+
 /*-----------------When hovered over, color changes */
 .sidenav a:hover {
     background: #CEEC97;
     color: #494368;
 }
-
-/*-------On smaller screens, height is less than 450px*/
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
-/*-------------------------homepage menu*/
+/*------------------------------------------------------homepage menu*/
 .home-menu {
     list-style: none;
 }
 /*home end*/
+
+
+/*----------------------------------------------------------media queries*/
+
+
+/*-------On smaller screens, height is less than 450px*/
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top:  0.9375em;}
+  .sidenav a {font-size: 1.125em;}
+}
+/*-------On smaller screens, height is less than 450px*/
+@media screen and (max-width: 300px) {
+    .sidenav {
+        width: 160px;
+    }
+    .sidenav a {
+        font-size: 0.8em;
+        padding-bottom: 1em;
+    }
+}

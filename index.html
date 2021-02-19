@@ -24,10 +24,18 @@
             <img src="./static/images/sidenav/maths.jpg" alt="Maths text image">
         </div>
         <!-- Side navigation bar, display different tutorials to users-->
-        <a href="index.html">Home</a>
-        <a href="#">Primary Tutorials</a>
-        <a href="#">Secondary tutorials</a>
-        <a href="#">College tutorials</a>
+        <a href="index.html"><i class="fas fa-home"></i> Home</a>
+        <button class="dropdown-btn">
+            Choose Your Grade
+            <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-container">
+            <a href="#">Primary Tutorials</a>
+            <a href="#">Secondary Tutorials</a>
+            <a href="#">College Tutorials</a>
+        </div>
+        <a href="#">Private Tutoring</a>
+        <a href="#"><i class="fas fa-phone-square-alt"></i> Contact Us</a>
     </div>
 </header>
 <!--End of navigation-->
@@ -40,14 +48,19 @@
         <div class="home-menu">
             <ul>
                 <li><a href="index.html">Home</a></li>
+                <li><a href="#">Sign Up</a></li>
                 <li><a href="#">Primary Tutorials</a></li>
                 <li><a href="#">Secondary Tutorials</a></li>
                 <li><a href="#">College Tutorials</a></li>
+                <li><a href="#">Get A Private Tutor</a></li>
+                <li><a href="#">Contact Us</a></li>
             </ul>
         </div>
     </div>
     <footer>
     </footer>
+    <!--Local Js scripts-->
+    <link href="../static/js/script.js">
 </body>
 
 </html>
