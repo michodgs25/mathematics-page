@@ -64,26 +64,18 @@
 }
 
 /*-----------------When hovered over, color changes */
-.sidenav a:hover {
-    background: #CEEC97;
-    color: #494368;
-}
-/*------------------------------------------------------homepage menu*/
-.home-menu a {
-    list-style: none;
-    color: rgb(255, 255, 255);
-    text-decoration: none;
-}
-.home-menu ul li {
-    padding: 10px 10px;
-    background: linear-gradient(to right, #7A28CB, #FC60A8, #CEEC97);
-    text-align: center;
+
+/*------------------------------------------------------homepage cards*/
+
+.Sign-up-card {
+    background: linear-gradient(to left #494368, #CEEC97);
 }
 
+
 /*-----------------------Home menu background*/
-.menu-background {
-    width: auto;
-}
+
+
+
 /*home end*/
 
 /*----------------------------------------------------------media queries*/
