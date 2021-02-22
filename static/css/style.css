@@ -19,6 +19,7 @@
 /*------------------------The sidebar menu links */
 .sidenav a {
     padding:  0.375em 0.5em 0.375em 1em;
+    margin-bottom: 1em;
     color: rgb(255, 255, 255);
     text-decoration: none;
     font-size: 1.2em;
@@ -30,7 +31,9 @@
 /* Style the sidenav links and the dropdown button */
 .dropdown-btn {
   padding:  0.375em 0.5em 0.375em 1em;
+  padding-bottom: 1em;
   text-decoration: none;
+  text-align: center;
   font-size: 1.2em;
   font-weight: 600;
   color: rgb(255, 255, 255);
