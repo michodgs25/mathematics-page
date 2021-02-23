@@ -67,21 +67,19 @@
 
 /*------------------------------------------------------homepage cards*/
 
-.Sign-up-card {
-    background: linear-gradient(to left #494368, #CEEC97);
-}
-
 .card-image {
     width: 18.75em;
     height: 18.75em;
 }
 
 .flip-card {
-  background-color: transparent;
-  width: 18.75em;
-  height: 18.75em;
-  border: 0.0625em solid rgb(255, 255, 255);
-  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+    align-self: start;
+    background-color: transparent;
+    width: 18.75em;
+    height: 18.75em;
+    margin: 1em;
+    border: 0.0625em solid rgb(255, 255, 255);
+    perspective: 1000px;
 }
 
 .flip-card-inner {
@@ -109,15 +107,15 @@
 
 /* Style the front side*/
 .flip-card-front {
-  background-color: #bbb;
-  color: black;
+  background-color: rgb(#FC60A8);
+  color: rgb(0, 0, 0);
 }
 
 /* Style the back side */
 .flip-card-back {
-  background-color: rgb(64, 30, 255);
-  color: rgb(255, 255, 255);
-  transform: rotateY(180deg);
+    background-color: #494368;
+    color: rgb(255, 255, 255);
+    transform: rotateY(180deg);
 }
 /*home end*/
 
