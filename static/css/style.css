@@ -73,24 +73,24 @@ ul {
     list-style: none;
 }
 
-#menu {
-    height: 50px;
-    padding-top: 0 10px;
-    color: #CEEC97;
+.menu {
+    background-image: url(https://scx2.b-cdn.net/gfx/news/hires/2019/howtoovercom.jpg);
 }
 
-#menu ul li {
-    float: left;
+.menu ul li {
+    text-align: center;
+    float: inline-start;
     margin-left: 5em;
-    padding-top: 1em;
-    padding-left: 5em;
+    padding-top: 5em;
+    border-right: 1px solid #7A28CB;
 }
 
-#menu ul li a {
+.menu ul li a {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 15px;
     color: #7A28CB;
+    background: linear-gradient(to right, #CEEC97, #FC60A8);
 }
 
 /*home end*/
