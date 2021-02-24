@@ -1,3 +1,8 @@
+/*----------------------------Body color*/
+body {
+    background: linear-gradient(45deg, black, transparent);
+}
+
 /*----------------------------sidenav image sizing*/
 .background img {
     height: 11.25em;
@@ -74,6 +79,7 @@ ul {
 }
 
 .menu {
+    background: linear-gradient(45deg, rgb(0, 0, 0), transparent);
     background-image: url(https://scx2.b-cdn.net/gfx/news/hires/2019/howtoovercom.jpg);
 }
 
@@ -88,9 +94,9 @@ ul {
 .menu ul li a {
     text-decoration: none;
     text-transform: uppercase;
-    font-size: 15px;
-    color: #7A28CB;
-    background: linear-gradient(to right, #CEEC97, #FC60A8);
+    font-size: 1.5625em;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, #7A28CB, #FC60A8);
 }
 
 /*home end*/
