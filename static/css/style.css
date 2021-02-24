@@ -79,7 +79,7 @@ ul {
 }
 
 .menu {
-    background: linear-gradient(45deg, rgb(0, 0, 0), transparent);
+    background: linear-gradient(45deg, rgb(0, 0, 0), transparent rgb(#CEEC97));
     background-image: url(https://scx2.b-cdn.net/gfx/news/hires/2019/howtoovercom.jpg);
 }
 
@@ -88,7 +88,6 @@ ul {
     float: inline-start;
     margin-left: 5em;
     padding-top: 5em;
-    border-right: 1px solid #7A28CB;
 }
 
 .menu ul li a {
@@ -97,6 +96,13 @@ ul {
     font-size: 1.5625em;
     color: rgb(255, 255, 255);
     background: linear-gradient(to right, #7A28CB, #FC60A8);
+    transition: font-size 0.5s linear;
+}
+
+.menu ul li a:hover {
+    color: #CEEC97;
+    font-size: 1.5625em;
+    font-weight: bold;
 }
 
 /*home end*/
