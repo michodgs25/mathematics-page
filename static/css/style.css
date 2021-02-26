@@ -112,16 +112,9 @@ ul {
     background: linear-gradient(to right, #FC60A8, #7A28CB);
 }
 
-.introduction-header {
+.introduction h2 {
     padding-left: 5em;
 }
-
-.introduction-header:hover {
-    color: #CEEC97;
-    font-style: italic;
-    text-decoration: underline;
-}
-
 
 .introduction-para {
     line-height: 2em;
@@ -133,6 +126,38 @@ ul {
     font-size: 1em;
     font-weight: bold;
 }
+
+/*------------------------------------home sidebar section*/
+.sidebar {
+    height: 31.25em;
+    width: 25em;
+    border-radius: 1em;
+    border: 5px solid #379634;
+    color: #7A28CB;
+    background-color: rgb(255, 255, 255);
+    padding: 0.625em 1.875em;
+    list-style: none;
+}
+
+.sidebar:hover {
+    color: #FC60A8;
+    background-color: #CEEC97;
+}
+
+.sidebar h3 {
+    font-weight: 800;
+    text-decoration: underline;
+    color: #7A28CB;
+}
+
+#left-sidebar {
+    float: left;
+}
+
+#right-sidebar {
+    float: right;
+}
+
 
 /*home end*/
 
