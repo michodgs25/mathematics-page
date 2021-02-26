@@ -154,7 +154,7 @@ ul {
 
 /*------------------------------------home sidebar section*/
 .sidebar {
-    height: 31.25em;
+    height: 30em;
     width: 25em;
     border-radius: 1em;
     border: 5px solid #379634;
@@ -162,6 +162,7 @@ ul {
     background-color: rgb(255, 255, 255);
     padding: 0.625em 1.875em;
     list-style: none;
+    margin-right: 8em;
 }
 
 .sidebar:hover {
@@ -175,21 +176,12 @@ ul {
     color: #7A28CB;
 }
 
-#left-sidebar {
-    float: left;
-}
-
 #right-sidebar {
     float: right;
 }
 
 .sidebar ul {
     padding-top: 0.5em;
-}
-
-.left-sidebar ul li {
-    padding-left: 0.625em;
-    padding-bottom: 0.375em;
 }
 
 .sidebar ul li a {
@@ -201,11 +193,6 @@ ul {
     font-size: 1.3125em;
     font-weight: 800;
     text-decoration: none;
-}
-
-i .fas .fa-check {
-    color: #379634;
-    font-size: large;
 }
 
 /*home end*/
