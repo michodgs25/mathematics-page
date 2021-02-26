@@ -87,7 +87,7 @@ ul {
     text-align: center;
     float: inline-start;
     margin-left: 5em;
-    padding-top: 5em;
+    padding: 2em;
 }
 
 .menu ul li a {
@@ -102,6 +102,35 @@ ul {
 .menu ul li a:hover {
     color: #CEEC97;
     font-size: 1.5625em;
+    font-weight: bold;
+}
+
+/*----------------------------------homepage introduction to the platform*/
+.introduction {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, #FC60A8, #7A28CB);
+}
+
+.introduction-header {
+    padding-left: 5em;
+}
+
+.introduction-header:hover {
+    color: #CEEC97;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+
+.introduction-para {
+    line-height: 2em;
+    padding: 20px;
+    padding-left: 10.5em;
+}
+
+.introduction-para:hover {
+    font-size: 1em;
     font-weight: bold;
 }
 
